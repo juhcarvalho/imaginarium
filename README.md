@@ -1,6 +1,35 @@
 # Imaginarium
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+
+
+
+### 🔷 Instalar verssão especifica do angular CLI
+`npm uninstall -g @angular/cli`
+
+`npm install -g @angular/cli@18`
+
+### 🔷 Verificar versão do Angular CLI
+`ng version`
+
+### 🔷 Criar projeto 
+`ng new imaginarium --routing --style=scss`
+
+`cd imaginarium`
+
+### 🔷 Instalar PrimeNG 18
+`npm install primeng@18 @primeng/themes@18`
+
+`primeicons primeflex`
+
+### 🔷 Criar componente
+`ng g c personagem`
+
+### 🔷 Criar componente sem arquivo de testes
+`ng g c item-magico --skip-tests`
+
+
+___
+
 
 ## Development server
 
