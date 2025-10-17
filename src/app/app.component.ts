@@ -20,7 +20,7 @@ export class AppComponent {
       {
         label: '',
         icon: 'pi pi-home',
-        routerLink: ['/home'],
+        routerLink: ['/home'        ],
         styleClass: 'p-mr-3' 
 
       },
