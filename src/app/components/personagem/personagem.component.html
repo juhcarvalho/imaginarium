@@ -1,1 +1,12 @@
-<p>personagem works!</p>
+<div class="personagem-container">
+    <p-card class="personagem-card" *ngFor="let personagem of personagens" [ngStyle]="{'background-color': personagem.corFundo}">
+        <div class="p-card-header">
+            <img alt="Card" class="w-full" src="{{personagem.imagem}}" />
+        </div>
+        <div class="p-card-body my-body" [ngStyle]="{'background-color': personagem.corFundo}">
+            <div class="p-card-title my-title">{{personagem.nome}} - Lv.{{personagem.nivel}}</div>
+            <div class="p-card-subtitle my-title">{{personagem.raca}}</div>
+                <p>{{personagem.descricao}}</p>
+        </div>
+    </p-card>
+</div>

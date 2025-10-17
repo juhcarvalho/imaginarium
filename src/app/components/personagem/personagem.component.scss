@@ -1,0 +1,25 @@
+.personagem-card {
+    display: flex;
+    align-items: center;
+    width: 15rem;
+    height: 25rem;
+    margin: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.personagem-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-body {
+    padding: 0.5rem !important;
+}
+
+.my-body p {
+    font-size: 0.9rem;
+    text-align: justify;
+}

@@ -1,1 +1,16 @@
-<p>item-magico works!</p>
+<div class="card-container">
+    <p-card class="card-body" *ngFor="let item of itensMagicos">
+        <div class="p-component">
+        <div class="p-car-header">
+            <img alt="Card" class="imagem-card" src="{{item.imagem}}"/>
+            
+        </div>
+        <div class="p-card-body">
+            <div class="p-card-title">{{item.nome}} - Lv.{{item.poder}}</div>
+            <div class="p-card-subtitle">{{item.tipo}}</div>
+                <p>{{item.descricao}}</p>
+        </div>
+        </div>
+    </p-card>
+
+</div>
