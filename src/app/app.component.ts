@@ -18,6 +18,13 @@ export class AppComponent {
   ngOnInit() {
     this.items = [
       {
+        label: '',
+        icon: 'pi pi-home',
+        routerLink: ['/home'],
+        styleClass: 'p-mr-3' 
+
+      },
+      {
         label: 'Itens Mágicos',
         icon: 'pi pi-star',
         routerLink: ['/itens-magicos'],
@@ -25,7 +32,7 @@ export class AppComponent {
 
       },
       {
-        label: 'Personagem',
+        label: 'Personagens',
         icon: 'pi pi-user',
         routerLink: ['/personagem']
       }
